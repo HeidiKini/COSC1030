@@ -1,6 +1,6 @@
 //
-// Name
-// Date
+// Heidi Kinikini
+// 1/26/2025
 // Fix the Errors #1 Programming Project
 // COSC 1030
 //
@@ -15,7 +15,7 @@ int main()
 	int number;
 	float total;
 
-	cout << "Today is a great day for Lab"
+	cout << "Today is a great day for Lab";
 	cout << endl << "Let's start off by typing a number of your choice" << endl;
 	cin >> number;
 
