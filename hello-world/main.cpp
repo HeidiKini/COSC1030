@@ -1,6 +1,6 @@
 //
-// Name
-// Date
+// Heidi Kinikini
+// 1/25/2025
 // Your First C++ Program
 // COSC 1030
 //
