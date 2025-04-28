@@ -15,6 +15,8 @@ int bubbleSort(int arr[], int size);
 int selectionSort(int arr[], int size);
 //void prototypes used to copy original array to pass through each function and printing array to the screen without returning a value
 void copyArray(int source[], int destination[], int size[]);
+void swapValues(int &a, int &b);
+
 
 //sort functions
 
@@ -37,7 +39,7 @@ int bubbleSort(int arr[], int size)
             if (arr[j] > arr[j + 1])
             {
                 //count excahanges and when done set array swapped to true
-                swap(arr[j], arr[j + 1]);
+                swapValues(arr[j], arr[j + 1]);
                 exchanges++;
                 isSwapped = true;
             }
@@ -84,6 +86,14 @@ void copyArray(int source[], int destination[], int size)
     {
         destination[i] = source[i];
     }
+}
+
+//swap value function
+void swapValues(int &a, int &b)
+{
+    int temp = a;
+    a = b;
+    b = temp;
 }
 
 
